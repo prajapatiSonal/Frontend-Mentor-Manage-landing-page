@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.position-relative {
+  position: relative;
+}
+.border {
+  border: 1px solid;
+}
+.pd-10x {
+  padding: 10px;
+}
+.pd-40x {
+  padding: 40px;
+}
+.pd-50x {
+  padding: 50px;
+}
+.pr-5 {
+  padding-right: 5px;
+}
+.pr-20x {
+  padding-right: 20px;
+}
+.pr-50x {
+  padding-right: 50px;
+}
+.py-20 {
+  padding: 20px 0px;
+}
+.pl-50 {
+  padding-left: 50px;
+}
+.py-60 {
+  padding: 60px 0px;
+}
+.py-30 {
+  padding: 30px 0px;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.btn {
+  width: 130px;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  color: hsl(12, 88%, 59%);
+  background: white;
+}
+.btn:hover {
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  cursor: pointer;
+}
+.bg-red {
+  background-color: hsl(12, 88%, 59%);
+}
+.text-white {
+  color: #ffff;
+}
+.text-red {
+  color: hsl(12, 88%, 59%);
+}
+.bg-white {
+  background-color: #ffff;
+}
+.w-50 {
+  width: 50%;
+}
+.container {
+  margin: 0 auto;
+  width: 1230px;
+}
+.bg-gray {
+  background-color: hsl(0, 0%, 98%);
+}
+.text-gary-blue {
+  color: hsl(227, 12%, 61%);
+}
+.text-blue {
+  color: hsl(228, 39%, 23%);
+}
+.bg-blue {
+  background-color: hsl(228, 39%, 23%);
+}
+.text-gray {
+  color: #a4a3a8;
+}
+.title {
+  width: 500px;
+  font-weight: 700;
+  font-size: 44px;
+  padding: 18px 0px;
+  letter-spacing: 0px;
+}
+.para {
+  width: 272px;
+  padding: 20px 0px;
+  padding-top: 15px;
+  font-size: 13px;
+  font-weight: 300;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.pl-50 {
+  padding-left: 50px;
+}
+.pl-60 {
+  padding-left: 60px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pl-35 {
+  padding-left: 35px;
+}
+.number {
+  border-radius: 15px;
+  text-align: center;
+  border: none;
+  padding: 5px 16px;
+  height: 31px;
+}
+.manage {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+.m-20 {
+  margin: 20px;
+}
+.top-35 {
+  top: -35px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.banner {
+  background-image: url(./images/bg-tablet-pattern.svg);
+}
+footer {
+  background-color: #1e1e26;
+}
+.footer-input {
+  width: 66%;
+  /* height: 27%; */
+  border-radius: 25px;
+  padding: 17px;
+}
+.btn-go {
+  width: 30%;
+  height: 30%;
+  border-radius: 25px;
+}
+.pt-95 {
+  padding-top: 95px;
+}
+.header li:hover {
+  color: #a4a3a8;
+  cursor: pointer;
+}
+
+.banner-title{
+  width: 28%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.h-45{
+  height: 45px;
+}
